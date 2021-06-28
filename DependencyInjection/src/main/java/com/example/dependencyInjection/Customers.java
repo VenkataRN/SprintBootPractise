@@ -8,6 +8,8 @@ public class Customers {
 	private String custName;
 	private String custCourse;
 	
+
+	
 	public Customers(int custid, String custName, String custCourse) {
 		super();
 		this.custid = custid;
@@ -34,13 +36,10 @@ public class Customers {
 		this.custCourse = custCourse;
 	}
 
-//	public void displayCourseName() {
-//		System.out.print("Printing Customers CourseName");	
-//	}
 	public void displayCourseName() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("Printing Customers CourseName");	
 	}
+
 	
 
 }
