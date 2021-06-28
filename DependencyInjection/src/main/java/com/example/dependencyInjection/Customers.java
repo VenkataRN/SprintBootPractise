@@ -8,7 +8,9 @@ public class Customers {
 	private String custName;
 	private String custCourse;
 	
-
+	public Customers() {
+		super();
+	}
 	
 	public Customers(int custid, String custName, String custCourse) {
 		super();

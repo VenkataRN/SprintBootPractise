@@ -13,3 +13,7 @@ Parameter 0 of constructor in com.example.dependencyInjection.Customers required
 Action:
 
 Consider defining a bean of type 'int' in your configuration.
+
+
+Solution: 
+Dummy constructor is absent hence causing Bean creation failed. Fixing by adding Dummy Contructor
