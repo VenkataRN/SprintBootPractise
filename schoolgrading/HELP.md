@@ -15,5 +15,19 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+
+---------
 Let me check
 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
+--------
+
+- There will be different schools and each school will have Bonus Gradings . Add Bonus to each student based on the score
+- Input and Response will be in JSON
+----
+1) Takes multiple Student records with SchoolName, Grade, Marks as Input
+2) Responds SchoolName, Updated Marks
+3) Implement Logger
+4) Implement Exception Handler
+5) Implement Global Uniquie Identifier using MDC as part of the Log
+6) Integrate Actuator
+7) Try to enhance using H2 Database
