@@ -1,10 +1,8 @@
-package com.example.schoolgrading.controller.student;
+package com.example.schoolgrading.student;
 
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.Setter;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -21,6 +19,9 @@ public class Student {
 //    @Getter @Setter
     @JsonProperty("grade")
     private Integer grade;
+
+    public Student() {
+    }
 
     public Integer getBonusMarks(){
         return -1;

@@ -1,4 +1,4 @@
-package com.example.schoolgrading.controller.student;
+package com.example.schoolgrading.student;
 
 public class NinethClassStudent extends Student {
 

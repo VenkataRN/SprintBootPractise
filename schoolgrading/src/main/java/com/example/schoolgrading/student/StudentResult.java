@@ -1,9 +1,9 @@
-package com.example.schoolgrading.controller.student;
+package com.example.schoolgrading.student;
 
 import lombok.Getter;
 import lombok.Setter;
 
-public class StudentResults {
+public class StudentResult {
 
     @Getter @Setter
     public String studentName;
